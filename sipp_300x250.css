@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+/* Default style, feel free to remove if not needed. */
+body, body * {
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* Div layer for the entire banner. */
+#container_dc {
+
+	position: absolute;
+	overflow:hidden;
+	width: 298px;
+	height: 248px;
+	border:1px solid #666666;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+
+}
+
+
+
+/* Invisible button for background clickthrough. */
+#background_exit_dc {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	opacity: 0;
+	background: red;
+
+}
+
+
+/* Div layer containing the video player and video controls. */
+#video_container_dc {
+
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	bottom: 0px;
+	left: 0px;
+	background-image:url('firstframe.jpg');
+
+	top: 0px;
+}
+
+#video_dc {
+
+	position: absolute;
+	left:0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+
+}
+
+.video_controls_dc {
+	position: absolute;
+	width: 120px;
+	
+	height:118px;
+	top: 0px;
+	cursor: pointer;
+
+}
+
+/* Video button hiding an positioning */
+.video_controls_dc:hover {
+	opacity:0.8;
+	
+}
+
+#video_control_play_dc {
+	
+	display: none;
+	background-color: rgba(200,200,200,0);
+
+	background-image:url('Play.png');
+	background-repeat:no-repeat;
+	left: 100px;
+	top:75px;
+	width:100px;
+	height:100px;
+
+}
+
+#video_control_replay_dc {
+
+	display:none;
+	background-color: rgba(200,200,200,0);
+	
+	background-image:url('Replay.png');
+	width:20px;
+	height:18px;
+	right:10px;
+	top:10px;
+
+}
+
+
+
+
+
+#compliance-copy {
+
+	position: absolute;
+	width:288px;
+	height:250px;
+	background-color:rgba(200,200,200,0.9);
+	bottom:-250px;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 13px;
+	padding-left: 10px;
+	z-index: 100;
+}
+#selftrade-logo {
+	/*position: absolute;
+	right:-15px;
+	bottom:-10px;*/
+
+	
+	float:right;
+	margin-top: 9px;
+
+	
+
+}
+
+#compliance-text {
+	position: absolute;
+
+	width:170px;
+	display:block;
+	top:4px;
+	/*background-color: red;*/
+
+
+
+}
+
+#compliance-text-B {
+	position: absolute;
+	top:55px;
+	width:270px;
+	border-top: 1px solid #999999;
+	display: block;
+	margin: 0;padding:0;
+	padding-top: 10px;
+	
+	/*background-color: green;*/
+}
+
+
+
+#read-more {
+
+	position: absolute;
+	width:170px;
+	color:red;margin-top:5px;display:block;
+	cursor: pointer;
+	/* background-color: yellow; */
+	margin-bottom: 15px;
+	top:27px;
+	
+}
+
+#start-cta {
+	
+	position: absolute;
+	background-color:#de0001;
+	padding:15px;
+	padding-top:5px;padding-bottom:5px;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	letter-spacing: 0.4px;
+	color:white;
+	font-size:14px;
+	font-weight: normal;
+	 -webkit-border-radius: 2px;
+  	-moz-border-radius: 2px;
+  	border-radius: 2px;
+  	z-index: 30;
+  	top:110px;
+  	left:112px;
+  	cursor: pointer;
+  	opacity:0;
+
+}
+#start-cta:hover {
+	background-color: white;
+	color:#de0001;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
